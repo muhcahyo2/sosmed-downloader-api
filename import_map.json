@@ -1,0 +1,6 @@
+{
+  "imports": {
+    "cheerio": "https://deno.land/x/denocheerio@1.0.0/mod.ts",
+    "set-cookie-parser": "https://cdn.skypack.dev/set-cookie-parser"
+  }
+}

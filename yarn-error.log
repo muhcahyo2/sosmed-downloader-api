@@ -1,0 +1,41 @@
+Arguments: 
+  /home/muhcahyo2/.nvm/versions/node/v16.14.2/bin/node /home/muhcahyo2/.yarn/releases/yarn-1.22.5.cjs add set-cookie-paresr
+
+PATH: 
+  /home/muhcahyo2/.nvm/versions/node/v16.14.2/bin:/home/muhcahyo2/.dvm/bin:/home/muhcahyo2/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/google/flutter/bin:/home/muhcahyo2/Android/Sdk/platform-tools/:/home/muhcahyo2/Android/Sdk/emulator:/home/muhcahyo2/Android/Sdk/tools:/home/muhcahyo2/Android/Sdk/tools/bin:/home/muhcahyo2/Android/Sdk/platform-tools
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  16.14.2
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/set-cookie-paresr: Not found
+      at Request.params.callback [as _callback] (/home/muhcahyo2/.yarn/releases/yarn-1.22.5.cjs:78518:18)
+      at Request.self.callback (/home/muhcahyo2/.yarn/releases/yarn-1.22.5.cjs:135160:22)
+      at Request.emit (node:events:526:28)
+      at Request.<anonymous> (/home/muhcahyo2/.yarn/releases/yarn-1.22.5.cjs:136132:10)
+      at Request.emit (node:events:526:28)
+      at IncomingMessage.<anonymous> (/home/muhcahyo2/.yarn/releases/yarn-1.22.5.cjs:136054:12)
+      at Object.onceWrapper (node:events:645:28)
+      at IncomingMessage.emit (node:events:538:35)
+      at endReadableNT (node:internal/streams/readable:1345:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "sosmed-download-api",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

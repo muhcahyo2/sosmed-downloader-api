@@ -1,0 +1,73 @@
+const response = await axios.post(
+  'https://igram.io/id/dl/',
+  new URLSearchParams({
+    'url': 'https://www.instagram.com/p/CL_0NHnKJXb'
+  }),
+  {
+    headers: {
+      'authority': 'igram.io',
+      'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+      'accept-language': 'en-US,en;q=0.9',
+      'cache-control': 'max-age=0',
+      'origin': 'https://igram.io',
+      'referer': 'https://igram.io/id/',
+      'sec-ch-ua': '"Chromium";v="104", " Not A;Brand";v="99", "Google Chrome";v="104"',
+      'sec-ch-ua-mobile': '?0',
+      'sec-ch-ua-platform': '"Linux"',
+      'sec-fetch-dest': 'document',
+      'sec-fetch-mode': 'navigate',
+      'sec-fetch-site': 'same-origin',
+      'sec-fetch-user': '?1',
+      'upgrade-insecure-requests': '1',
+      'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36'
+    }
+  }
+);
+
+const response = await axios.get('https://igram.io/id/', {
+    headers: {
+        'authority': 'igram.io',
+        'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+        'accept-language': 'en-US,en;q=0.9',
+        'sec-ch-ua': '"Chromium";v="104", " Not A;Brand";v="99", "Google Chrome";v="104"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"Linux"',
+        'sec-fetch-dest': 'document',
+        'sec-fetch-mode': 'navigate',
+        'sec-fetch-site': 'none',
+        'sec-fetch-user': '?1',
+        'upgrade-insecure-requests': '1',
+        'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36'
+    }
+});
+
+const axios = require('axios');
+
+const response = await axios.post(
+    'https://igram.io/b/',
+    new URLSearchParams({
+        'url': 'https://www.instagram.com/p/CL_0NHnKJXb',
+        'lang_code': 'id',
+        'csrf_token': 'ImE0NTZhZmIzN2M0NDBiNmFhNjQ1MzNlODA1YzY4NGFkNGM2MGI3YWUi.YxFR_A.fmTxqECAbD4vUmiSknTXA9qcop4',
+        'token': ''
+    }),
+    {
+        headers: {
+            'authority': 'igram.io',
+            'accept': '*/*',
+            'accept-language': 'en-US,en;q=0.9',
+            'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
+            'cookie': '__gads=ID=adf5202fb907aa89-2293ab402dd600bf:T=1662078373:RT=1662078373:S=ALNI_MYouKGDcaBc1mUQvYKRvQTQSTmSuw; __gpi=UID=0000095ec74c0608:T=1662078373:RT=1662078373:S=ALNI_MauP94JH9Xsr-D38kG70keCDEktLA; _gid=GA1.2.526095240.1662078374; ga_show=2; __cf_bm=8ukgiXzxpuhNGDaADUk8QnLeYE1fpYv3N10QHUc8jgE-1662078616-0-ATnQGJZu5PXUgu6Q5Gz8iaA2apZDyuHnEd6WthQINpNirdb2LBJb47ZkUFntonZ0P+b5EMicRzlMuOnDyoiVvuDKGgafm4AuDAiWTv1pdIm8DxTejxp4IzmiQpVvEQfLTA==; session=eyJjc3JmX3Rva2VuIjoiYTQ1NmFmYjM3YzQ0MGI2YWE2NDUzM2U4MDVjNjg0YWQ0YzYwYjdhZSJ9.YxFR_A.chNbBk0stFuy-e9yYe57eBY7wlg; _ga_MNQG2TK2HP=GS1.1.1662078373.1.1.1662079484.60.0.0; _ga=GA1.2.1787059102.1662078374; _gat_UA-174582130-1=1',
+            'origin': 'https://igram.io',
+            'referer': 'https://igram.io/id/dl/',
+            'sec-ch-ua': '"Chromium";v="104", " Not A;Brand";v="99", "Google Chrome";v="104"',
+            'sec-ch-ua-mobile': '?0',
+            'sec-ch-ua-platform': '"Linux"',
+            'sec-fetch-dest': 'empty',
+            'sec-fetch-mode': 'cors',
+            'sec-fetch-site': 'same-origin',
+            'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36',
+            'x-requested-with': 'XMLHttpRequest'
+        }
+    }
+);
